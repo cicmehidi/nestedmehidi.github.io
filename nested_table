@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nested table</title>
+    </head>
+    <body>
+    <table width="1000" align="center" border="0" cellpadding="0" cellspacing="0" >
+        <!--row 1 start-->
+        <tr>
+        <td>
+             <table  width="1000" height="90" bgcolor="red" border="0" cellpadding="0" cellspacing="0">
+             <tr>
+                 <td width="333" height="90" bgcolor="green"> 
+                 </td>
+                 
+                 <td>
+                 <table width="333" height="90" bgcolor="yellow" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                     <td width="333" height="45" bgcolor="#cb7a36"></td>
+                     </tr>
+                     <tr>
+                     <td width="333" height="45" bgcolor="#306d30"></td>
+                     </tr>
+                     </table>
+                 </td>
+                 
+                 <td>
+                 <table width="334" height="90" bgcolor="yellow" border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                     <td width="334" height="30" bgcolor="#ac5e1c"></td>
+                     </tr>
+                     <tr>
+                     <td width="334" height="30" bgcolor="#15e015"></td>
+                     </tr>
+                     <tr>
+                     <td width="334" height="30" bgcolor="#8aa88a"></td>
+                         <tr>
+                     </table>
+                 </td>
+                 </tr>
+             </table>
+            </td>   
+        </tr>
+        <!---row 1 end--->
+        <!--2nd row start-->
+        <tr>
+        <td>
+            <table width="1000" height="90" bgcolor="yellow" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td width="250" height="90" bgcolor="#142914">
+                </td>
+                
+                <td>
+                <table width="250" height="90" bgcolor="yellow" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                    <td width="250" height="30" bgcolor="#16db16"></td>
+                    </tr>
+                    <tr>
+                    <td width="250" height="30" bgcolor="#9d9d60"></td>
+                    </tr>
+                    <tr>
+                    <td width="250" height="30" bgcolor="#5c835c"></td>
+                    </tr>
+                    </table>
+                </td>
+                
+                <td width="250" height="90" bgcolor="#efef96"></td>
+                
+                <td>
+                <table width="250" height="90" bgcolor="yellow" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                    <td width="250" height="45" bgcolor="#d8d84c">
+                    </td>
+                        
+                    </tr>
+                    <tr>
+                    <td>
+                        <table width="250" height="45" bgcolor="yellow" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td width="125" height="45" bgcolor="#d11515"></td>
+                            <td  width="125" height="45" bgcolor="#2efa2e"></td>
+                            </tr>
+                        </table>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+                </tr>
+            </table>
+            </td>
+        </tr>
+        <!---2nd row end--->
+        <!--3nd row start--->
+        <tr>
+            <td>
+        <table width="1000" height="90" bgcolor="yellow" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+            <td  width="200" height="90" bgcolor="#d8d84c"></td>
+                
+        <td width="200" height="90" bgcolor="#db2828"></td>
+                
+        <td>
+                <table width="200" height="90" bgcolor="yellow" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                    <td width="200" height="45" bgcolor="#292525"></td>
+                    </tr>
+                    <tr>
+                    <td width="200" height="45" bgcolor="#37b937"></td>
+                    </tr>
+            </table>
+                </td>
+                
+        <td  width="200" height="90" bgcolor="#312995"></td>
+                
+        <td>
+                <table width="200" height="90" bgcolor="yellow" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                    <td width="200" height="45" bgcolor="#cbcb2e"></td>
+                    </tr>
+                    <tr>
+                    <td width="200" height="45" bgcolor="#1fe21f"></td>
+                    </tr>
+            </table>
+                </td>
+                </tr>
+            </table>
+                </td>
+        </tr>
+        <!---3nd row red---->
+        <!---4th row start-->
+        <tr>
+        <td>
+            <table width="1000" height="90" bgcolor="yellow" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td width="500" height="90" bgcolor="#101210"></td>
+                
+                <td>
+                <table width="500" height="90" bgcolor="yellow" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                    <td width="500" height="45" bgcolor="#d91818"></td>
+                    </tr>
+                    <tr>
+                    <td width="500" height="45" bgcolor="#16b916">
+                        <table width="500" height="45" bgcolor="yellow" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td width="250" height="45" bgcolor="#347e34"></td>
+                            <td width="250" height="45" bgcolor="#eded25"></td>
+                            </tr>
+                        </table>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+                </tr>
+            </table>
+            </td>
+        </tr>
+        <!--4th row end--->
+        </table>
+    </body>
+</html>
